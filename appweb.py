@@ -1,16 +1,16 @@
 import streamlit as st 
 
 home = st.Page(
-    page="vestas/home.py",
+    page="vistas/home.py",
     title="Inicio",
     icon=":material/home:",
    # icon="🏠",
    default=True,
 )
-acerca_de_page= st.Page(
+acerca_de = st.Page(
     page="vistas/acerca_de.py",
     title="Acerca de",
-    icon=":material/account_circle",
+    icon=":material/account_circle:",
 )
 project_1 = st.Page(
     page="vistas/ventas.py",
@@ -20,11 +20,11 @@ project_1 = st.Page(
 project_2 = st.Page(
     page="vistas/chatbot.py",
     title="Chatbot",
-    icon="🤖"
+    icon="🤖",
 )
 pg = st.navigation(
     {
-        "Información:":[home, acerca_de_page],
+        "Información:":[home, acerca_de],
         "Proyectos:":[project_1,project_2],
     }
 )
