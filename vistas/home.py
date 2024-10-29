@@ -1,3 +1,6 @@
 import streamlit as st 
 
-st.title("Principal")
+#Incio de pagina
+with st.container():
+    st.subheader("Bienvenidos, Somos SOFTIA ")
+    
