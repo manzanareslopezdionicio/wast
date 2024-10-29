@@ -1,5 +1,5 @@
 import streamlit as st 
-st.set_page_config("layout=true")
+st.set_page_config(layout="wide")
 
 home = st.Page(
     page="vistas/home.py",
