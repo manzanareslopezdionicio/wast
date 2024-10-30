@@ -1,4 +1,5 @@
 import streamlit as st 
+
 st.set_page_config(layout="wide")
 
 home = st.Page(
@@ -31,3 +32,6 @@ pg = st.navigation(
     }
 )
 pg.run()
+
+st.logo("img/chatbot.png")
+st.sidebar.markdown("© Elaborado con ❤️ por [Streeamlit](https://streamlit.io/) ")
