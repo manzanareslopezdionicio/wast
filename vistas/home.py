@@ -75,4 +75,5 @@ with st.container():
             Si en tus procesos diarios tienes que introducir información en diferentes fuentes de datos o bien tienes que trabajar con documentación en papel, es hora de pensar en implementar una aplicación en tu negocio para potenciar y optimizar el funcionamiento de los procesos diarios.
             """
         )
-        st.write("[Más sobre nosotros ⋙] https://emojidb.org/peaple-emojis")          
+        st.write("[Más sobre nosotros ⋙] https://emojidb.org/peaple-emojis")
+                 
