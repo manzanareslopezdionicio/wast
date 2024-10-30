@@ -25,7 +25,7 @@ with st.container():
             - Quieres mejorar la experiencia de tus clientes
             - Usas herramientas de software antiguas o poco eficientes o procesos en los que usas papel y bolígrafo
 
-            ***Si esto suena interesante para ti puedes contactarnos a través del formulario que encontrarás al final de la página*** 
+            **Si esto suena interesante para ti puedes contactarnos a través del formulario que encontrarás al final de la página**
             """
         )
         st.write("[Más sobre nosotros ⋙] https://emojidb.org/peaple-emojis")
