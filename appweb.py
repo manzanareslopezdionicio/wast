@@ -4,8 +4,8 @@ st.set_page_config(layout="wide")
 home = st.Page(
     page="vistas/home.py",
     title="Inicio",
-    icon=":material/home:",
-   # icon="🏠",
+    #icon=":material/home:",
+    icon="🏠",
    default=True,
 )
 acerca_de = st.Page(
