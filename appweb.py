@@ -11,7 +11,8 @@ home = st.Page(
 acerca_de = st.Page(
     page="vistas/acerca_de.py",
     title="Acerca de",
-    icon=":material/account_circle:",
+    icon="👨🏻‍💼",
+    #icon=":material/account_circle:",
 )
 project_1 = st.Page(
     page="vistas/ventas.py",
