@@ -1,4 +1,13 @@
+import json
+import requests
 import streamlit as st 
+from streamlit_lottie import st_lottie
+
+# https://lottie.host/b3c021a4-5f01-463b-9f10-bff1cf8a9321/vuKeufZXEy.json
+
+def get(path:str):
+    with open(path, "r") as p:
+        return json.load(p)
 
 #Incio de pagina
 with st.container():
@@ -29,8 +38,10 @@ with st.container():
             """
         )
         st.write("[Más sobre nosotros ⋙] https://emojidb.org/peaple-emojis")
-    #with d_columna:
-    #    st.empty
+    with d_columna:
+        path = get("animacion/Ani.json")
+        st_lottie(path)
+        
     #Servicios
 with st.container():
     st.write("---")
@@ -76,4 +87,32 @@ with st.container():
             """
         )
         st.write("[Más sobre nosotros ⋙] https://emojidb.org/peaple-emojis")
-                 
+
+#contactos
+st.subheader("Contacto")
+
+form = st.form(key="home", clear_on_submit=True)
+with form:
+    input_nombre = st.text_input("Nombre:", placeholder="Escriba su nombre")
+    input_email = st.text_input("Correo electrónico:", placeholder="Escriba su E-mail")
+    input_area = st.text_area("Comentario:")
+    button_submit = form.form_submit_button("Enviar")
+
+#footer
+with st.container():
+    st.write("---")
+    p1, p2, p3 = st.columns((3))
+    with p1:
+        st.subheader("Contactos:")
+        st.write("***Direccion:*** Juigalpa, Chontales-Nicaragua")
+        st.write("***Telefono:*** +(505) 0000-0000")
+    with p2:
+        st.subheader("Servicios")
+        st.write("Diseño de Aplicaciones")
+        st.write("Automatización de procesos")
+        st.write("Visualización de datos")
+    with p3:
+        st.subheader("Redes Sociales")
+        st.markdown("[YOUTUBE](https://www.youtube.com/)")
+        st.markdown("[Facebook](https://www.youtube.com/)")
+        st.markdown("[Instagram](https://www.youtube.com/)")
