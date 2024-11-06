@@ -16,7 +16,7 @@ with st.container():
     st.write(
         "Somos unos apacionados de las tecnologias y la innovacion, especializados en el sector de la digitalizacion y automatizacion de negocios. Nos gusta crear soluciones para resolver problemas y mejoras de proceso"
     )
-    st.write("[Saber más ⋙] https://emojidb.org/peaple-emojis")
+    st.write("[Saber más ⋙](https://emojidb.org/peaple-emojis)")
 #Sobre nosotros
 with st.container():
     st.write("---")
@@ -37,7 +37,7 @@ with st.container():
             **Si esto suena interesante para ti puedes contactarnos a través del formulario que encontrarás al final de la página**
             """
         )
-        st.write("[Más sobre nosotros ⋙] https://emojidb.org/peaple-emojis")
+        st.write("[Más sobre nosotros ⋙](https://emojidb.org/peaple-emojis)")
     with d_columna:
         path = get("animacion/Ani.json")
         st_lottie(path)
@@ -56,7 +56,7 @@ with st.container():
             Si en tus procesos diarios tienes que introducir información en diferentes fuentes de datos o bien tienes que trabajar con documentación en papel, es hora de pensar en implementar una aplicación en tu negocio para potenciar y optimizar el funcionamiento de los procesos diarios.
             """
         )
-        st.write("[Más sobre nosotros ⋙] https://emojidb.org/peaple-emojis")
+        st.write("[Más sobre nosotros ⋙](https://emojidb.org/peaple-emojis)")
 
 with st.container():
     st.write("---")
