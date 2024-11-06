@@ -16,7 +16,7 @@ with st.container():
     st.write(
         "Somos unos apacionados de las tecnologias y la innovacion, especializados en el sector de la digitalizacion y automatizacion de negocios. Nos gusta crear soluciones para resolver problemas y mejoras de proceso"
     )
-    st.write("[Saber más ⋙] https://emojidb.org/peaple-emojis")
+    st.write("[Saber más ⋙] (https://emojidb.org/peaple-emojis)")
 #Sobre nosotros
 with st.container():
     st.write("---")
