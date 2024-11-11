@@ -28,3 +28,5 @@ def contact_form():
             st.stop()
         if submit_button:
             st.success("Se envio satisfactoriamente")
+            time.sleep(2)
+            st.rerun()

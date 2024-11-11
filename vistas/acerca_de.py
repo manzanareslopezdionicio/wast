@@ -8,7 +8,7 @@ def ver_form_contact():
 c1,c2 = st.columns(2, gap="small", vertical_alignment="center")
 
 with c1:
-    st.image("img/dioni.png", width=230)
+    st.image("img/dioni.png", width=250)
 with c2:
     st.title("Dionicio Manzanares Lopez")
     st.write(
